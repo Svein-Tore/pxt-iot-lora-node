@@ -617,7 +617,17 @@ namespace IotLoRaNode {
         serial.readLine()
 
     }
+//%blockId="IotLoRaNode_chmask_eu" advanced=true block="EU Set Freq: %euFreq"
+    //% blockGap=8
+    export function IotLoRaNode_chmask_eu(eufreq: euFreqs): void {
 
+        basic.pause(75)
+        //Set to use single channel gateway
+
+        serial.writeString("at+set_config=ch_mask:0,000" + eufreq.toString() + "\r\n");
+        serial.readLine()
+
+    }
 
     //End2
 
