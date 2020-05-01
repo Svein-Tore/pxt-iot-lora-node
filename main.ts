@@ -87,6 +87,17 @@ enum CodingRates {
     FourEight = 8
 
 }
+enum euFreqs {
+    //% block="868.1"
+    EU8681 = 1,
+    //% block="868.3"
+    EU8683 = 2,
+    //% block="868.5"
+    EU8685 = 4,
+    //% block="ALL"
+    EUALL = 7
+    
+}
 
 enum region {
     //% block="EU868"
