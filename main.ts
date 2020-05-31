@@ -16,6 +16,7 @@
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * Last Updated 2020-02-13-1520 testing changes
 *This chage is shown
+*This is also shown
 */
 enum Channels {
     //% block="One"    
