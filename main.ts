@@ -377,11 +377,11 @@ namespace IotLoRaNode {
          * Add GPS value
          */
         let latBuf = pins.createBuffer(4);
-        latBuf.setNumber(NumberFormat.Int32BE, 0, longitude * 10000)
+        latBuf.setNumber(NumberFormat.Int32BE, 0, longitude)
         let latBuf2 = latBuf.slice(1, 4);
 
         let lonBuf = pins.createBuffer(4);
-        lonBuf.setNumber(NumberFormat.Int32BE, 0, latitude * 10000)
+        lonBuf.setNumber(NumberFormat.Int32BE, 0, latitude)
         let lonBuf2 = lonBuf.slice(1, 4);
         let altBuf = pins.createBuffer(4);
         altBuf.setNumber(NumberFormat.Int32BE, 0, altitude * 100)
