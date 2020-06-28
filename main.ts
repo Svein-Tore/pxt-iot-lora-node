@@ -17,7 +17,7 @@
 * Last Updated 2020-02-13-1520 testing changes
 *This chage is shown
 *This is also shown yes
-*ha ha ha he he
+*ha ha ha he
 */
 enum Channels {
     //% block="One"    
